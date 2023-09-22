@@ -1,0 +1,26 @@
+.container {
+  position: sticky;
+  top: 420px;
+}
+
+.links {
+  color: rgb(112, 111, 111);
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  color: rgb(112, 111, 111);
+  font-size: 15px;
+}
+
+.link {
+  margin-right: 12px;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.trending {
+  padding: 20px 0;
+  height: auto;
+}
+
+.htitle {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.detailAboutTrending {
+  display: flex;
+  height: auto;
+}
+
+.leftInfo {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.category,
+.hashtags {
+  color: rgb(112, 111, 111);
+  font-size: 13px;
+}
+
+.rightInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faceImage {
+  object-fit: cover;
+  border-radius: 20px;
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+}

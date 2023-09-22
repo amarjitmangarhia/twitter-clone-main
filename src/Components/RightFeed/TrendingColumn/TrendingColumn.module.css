@@ -1,0 +1,22 @@
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  margin-bottom: -20px;
+}
+
+.trending {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topicName {
+  font-size: 17px;
+}
+
+.title,
+.noOfTweets {
+  color: rgb(112, 111, 111);
+  font-size: 13px;
+}

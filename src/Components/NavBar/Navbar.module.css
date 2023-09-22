@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.homeLinkInNavbar {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+  .homeLinkInNavbar {
+    display: none;
+  }
+  .searchBox {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .navbar {
+    display: block;
+    padding: 5px;
+  }
+
+  .homeLinkInNavbar {
+    display: none;
+  }
+  .searchBox {
+    display: none;
+  }
+
+  .star {
+    display: none;
+  }
+  .twitterIcon {
+    text-align: center;
+  }
+}

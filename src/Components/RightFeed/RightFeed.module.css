@@ -1,0 +1,10 @@
+.rightFeedContainer {
+  flex: 1;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .rightFeedContainer {
+    display: none;
+  }
+}

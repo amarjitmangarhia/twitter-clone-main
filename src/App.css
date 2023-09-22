@@ -1,0 +1,10 @@
+.container {
+  margin: 0px 65px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 10px 10px;
+  }
+}

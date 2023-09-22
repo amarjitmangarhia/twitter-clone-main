@@ -1,0 +1,41 @@
+.leftMenu {
+  height: 90vh;
+  /* width: 255px; */
+  position: relative;
+  margin-top: 10px;
+  position: sticky;
+  top: 50px;
+  flex: 1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.item {
+  width: max-content;
+  margin: 2px 0px;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: 300ms;
+}
+
+.item:hover {
+  background-color: #e1e8ed;
+  border-radius: 20px;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .leftMenu {
+    display: none;
+  }
+}

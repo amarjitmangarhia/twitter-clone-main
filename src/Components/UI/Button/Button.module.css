@@ -1,0 +1,21 @@
+.button {
+  margin-top: 10px;
+}
+
+.style {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #1da1f2;
+
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.style:hover {
+  cursor: pointer;
+  background-color: #3e95cb;
+  transition: 400ms;
+}

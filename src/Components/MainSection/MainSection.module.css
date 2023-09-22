@@ -1,0 +1,14 @@
+.mainContainer {
+  border: 1px solid rgb(224, 223, 223);
+  margin: 0px 10px;
+  flex: 2;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .mainContainer {
+    margin: 0px -10px;
+    flex: 2;
+    padding: 0px;
+  }
+}
